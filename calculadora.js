@@ -21,7 +21,7 @@ function operaciones(){
 	let cero = document.getElementById("cero");
 	let igual = document.getElementById("igual");
 	let division = document.getElementById("division");
-	let resultadoanterior= null;
+	let resultadoanterior= null; //wladixD
 
 	uno.onclick = function(e){
 		resultado.textContent = resultado.textContent + "1";
@@ -58,9 +58,9 @@ function operaciones(){
 	}
 	suma.onclick = function(e){
 		resultado.textContent = resultado.textContent + "+";
-		//numeroa = resultado.textContent;
+		//numeroa = resultado.textContent; (anterior)
 		numeror = "+";
-		limpiar();
+		//limpiar();
 	}
 	resta.onclick = function(e){
 		resultado.textContent = resultado.textContent + "-";
